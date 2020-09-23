@@ -59,7 +59,6 @@ export default {
         this.displayValue = this.values[0]
         this.operation = equals ? null : operation
         this.current = equals ? 0 : 1
-        console.log(!equals)
         this.clearDisplay = operation==='='? true: !equals
       }
     },
