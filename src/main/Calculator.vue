@@ -59,7 +59,8 @@ export default {
         this.displayValue = this.values[0]
         this.operation = equals ? null : operation
         this.current = equals ? 0 : 1
-        this.clearDisplay = !equals
+        console.log(!equals)
+        this.clearDisplay = operation==='='? true: !equals
       }
     },
     addDigit(n){
